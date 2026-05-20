@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
 
+#   Time comstants.
+
 dt = 1e-15
 end_time = 2e-10
 
@@ -84,6 +86,5 @@ def make_spin_animation(t_series, S_series, frame_stride=1000, fps=30):
     plt.close(fig)
 
     return anim
-
 
 anim = make_spin_animation(t_series, S_series, frame_stride=1000, fps=40)
