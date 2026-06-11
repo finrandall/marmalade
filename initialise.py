@@ -1,5 +1,3 @@
-# initial_conditions.py
-
 import numpy as np
 
 
